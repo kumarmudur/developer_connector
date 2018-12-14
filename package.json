@@ -1,0 +1,40 @@
+{
+    "name": "developer_connector",
+    "version": "1.0.0",
+    "description": "simple mern stack application",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kumarmudur/developer_connector.git"
+    },
+    "keywords": [
+        "mangodb",
+        "express",
+        "react",
+        "node"
+    ],
+    "author": "kumarmudur",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kumarmudur/developer_connector/issues"
+    },
+    "homepage": "https://github.com/kumarmudur/developer_connector#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "gravatar": "^1.8.0",
+        "jsonwebtoken": "^8.4.0",
+        "mongoose": "^5.3.16",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "validator": "^10.9.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.8"
+    }
+}
